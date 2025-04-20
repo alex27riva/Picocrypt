@@ -1,9 +1,30 @@
+# Future
+<ul>
+	<li>Migrate golang.org/x/crypto to standard library imports (https://github.com/golang/go/issues/65269)</li>
+</ul>
+
+# v1.34 (Released 04/29/2024)
+<ul>
+	<li>✓ New CLI with support for files, folders, globs, paranoid mode, and Reed-Solomon</li>
+	<li>✓ Migrate github.com/HACKERALERT/crypto back to golang.org/x/crypto</li>
+	<li>✓ Distribute raw Linux binary instead of AppImage for better portability</li>
+	<li>✓ Distribute macOS binaries for both Intel and Apple silicon</li>
+</ul>
+
+# v1.33 (Released 06/27/2023)
+<ul>
+	<li>✓ Add tooltip warning that comments are not encrypted (#164)</li>
+	<li>✓ Hash keyfiles in chunks to reduce memory usage (#168)</li>
+	<li>✓ Prevent using identical keyfiles under different filenames (#170)</li>
+</ul>
+
 # v1.32 (Released 04/28/2023)
 <ul>
 	<li>✓ Added a command-line interface</li>
 	<li>✓ Use Debian 11 as the base for the AppImage instead of Debian 10</li>
 	<li>✓ Include software rendering DLLs in the Paranoid Pack for future proofing</li>
 	<li>✓ Add plausible deniability and recursive encryption</li>
+	<li>✓ Added an installer for Windows (made using Inno Setup)</li>
 </ul>
 
 # v1.31 (Released 11/18/2022)
